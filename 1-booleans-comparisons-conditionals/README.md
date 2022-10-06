@@ -12,45 +12,45 @@
 
 2. Use the console to accomplish the following:
 
-    + Write an expression using `>` that will evaluate to `false`
-    + Write an expression using `>` that will evaluate to `true`
-    + Write an expression using `<` that will evaluate to `false`
-    + Write an expression using `<` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `false`
-    + Write an expression using two strings and `===` that will evaluate to `true`
-    + Write an expression using two strings and `===` that will evaluate to `false`
+    + Write an expression using `>` that will evaluate to `false` 5>9
+    + Write an expression using `>` that will evaluate to `true`5>4
+    + Write an expression using `<` that will evaluate to `false`5<3
+    + Write an expression using `<` that will evaluate to `true`5<9
+    + Write an expression using two numbers and `===` that will evaluate to `true`5===5
+    + Write an expression using two numbers and `===` that will evaluate to `false`5===9
+    + Write an expression using two strings and `===` that will evaluate to `true`'bo'==='bo'
+    + Write an expression using two strings and `===` that will evaluate to `false`'bo'==='bob'
 
 3. Fill in the `???` with the following operators or values to make the statements
    output the expected Boolean value.
 
    ```js
-   12 ??? 78
+   12 < 78
    // => true
 
-   24 ??? 16
+   24 === 16
    // => false
 
-   45 !== ???
+   45 !== 8
    // => true
 
-   "45" ??? 45
+   "45" === 45
    // => false
 
-   "6" ??? "six"
+   "6" !== "six"
    // => true
    ```
 
 4. Write a function `oldEnoughToDrink` that takes an `age` as an argument and
    returns `true` if the person with that age is old enough to drink.
-
+si X>=18 => true ; X= age
 5. There's an easy way to figure out how long a string is by adding `.length` to
    the end of it. Try this out in the console:
 
   ```js
-  "hello".length;
-  "".length;
-  "John Doe".length;
+  "hello".length; =5
+  "".length;=0
+  "John Doe".length;8
   ```
 
   Write a function `sameLength` that accepts two strings as arguments, and
@@ -82,22 +82,22 @@
    output the expected Boolean value.
 
    ```js
-   106 ??? 12
+   106 === 12
    // => false
 
-   "wiz" ??? "wiz"
+   "wiz" === "wiz"
    // => true
 
-   7 * 7  ??? 49
+   7 * 7  === 49
    // => true
 
-   12 ??? (24 / 2)
+   12 !== (24 / 2)
    // => false
 
-   (20 % 2) <= ???
+   (20 % 2) <= 2
    // => true
 
-   (9 / 3) + (5 * 5) === ???
+   (9 / 3) + (5 * 5) === 28
    // => true
    ```
 
