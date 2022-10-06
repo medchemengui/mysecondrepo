@@ -85,6 +85,6 @@
 
    ```js
    Where are all the quotes?
-   'hmm something is not right"
-   'Do other ' * 'operators work with string concatenation?
+   'hmm something is not right'
+   'Do other ' + 'operators work with string concatenation'
    ```
