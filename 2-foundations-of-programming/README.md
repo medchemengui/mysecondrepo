@@ -30,7 +30,7 @@
 
 4. What is the percentage of letters in the english alphabet that are vowels (including y)? Use the
    console to find out.
-
+  23.0769%
 5. Try the following expressions in the console:
 
    ```js
@@ -44,7 +44,7 @@
 
    What is the significance of the result? How does the `%` (modulus) operator
    work?
-
+calculate the percentage
 6. Try the following:
 
    ```js
