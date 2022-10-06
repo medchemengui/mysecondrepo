@@ -12,37 +12,38 @@
 
 2. Use the console to accomplish the following:
 
-    + Write an expression using `>` that will evaluate to `false`
-    + Write an expression using `>` that will evaluate to `true`
-    + Write an expression using `<` that will evaluate to `false`
-    + Write an expression using `<` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `false`
-    + Write an expression using two strings and `===` that will evaluate to `true`
-    + Write an expression using two strings and `===` that will evaluate to `false`
+    + Write an expression using `>` that will evaluate to `false` <!-- 2 > 4 -->
+    + Write an expression using `>` that will evaluate to `true` <!-- 4>2  -->
+    + Write an expression using `<` that will evaluate to `false` <!-- 4<1 -->
+    + Write an expression using `<` that will evaluate to `true` <!-- 8<10  -->
+    + Write an expression using two numbers and `===` that will evaluate to `true` <!-- 7===7 -->
+    + Write an expression using two numbers and `===` that will evaluate to `false` <!-- 7===1 -->
+    + Write an expression using two strings and `===` that will evaluate to `true`<!-- '1'==='1' -->
+    + Write an expression using two strings and `===` that will evaluate to `false`<!-- '9'==='8' -->
 
 3. Fill in the `???` with the following operators or values to make the statements
    output the expected Boolean value.
 
    ```js
-   12 ??? 78
+   12 !== 78
    // => true
 
-   24 ??? 16
+   24 === 16
    // => false
 
-   45 !== ???
+   45 !== 46
    // => true
 
-   "45" ??? 45
+   "45" === 45
    // => false
 
-   "6" ??? "six"
+   "6" !== "six"
    // => true
    ```
 
 4. Write a function `oldEnoughToDrink` that takes an `age` as an argument and
    returns `true` if the person with that age is old enough to drink.
+
 
 5. There's an easy way to figure out how long a string is by adding `.length` to
    the end of it. Try this out in the console:
@@ -82,22 +83,22 @@
    output the expected Boolean value.
 
    ```js
-   106 ??? 12
+   106 < 12
    // => false
 
-   "wiz" ??? "wiz"
+   "wiz" === "wiz"
    // => true
 
-   7 * 7  ??? 49
+   7 * 7  === 49
    // => true
 
-   12 ??? (24 / 2)
+   12 > (24 / 2)
    // => false
 
-   (20 % 2) <= ???
+   (20 % 2) <= 0
    // => true
 
-   (9 / 3) + (5 * 5) === ???
+   (9 / 3) + (5 * 5) === 28
    // => true
    ```
 
